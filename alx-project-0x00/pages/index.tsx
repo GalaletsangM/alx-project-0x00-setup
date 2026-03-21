@@ -1,3 +1,4 @@
+
 const Home: React.FC = () => {
   return (
     <main className="flex flex-col h-screen justify-center items-center text-4xl font-semibold">
@@ -5,6 +6,7 @@ const Home: React.FC = () => {
       <button className=" border px-3 py-1 text-lg mt-3  bg-blue-500 text-white rounded-full">
         Get Started
       </button>
+      <div className="bg-red-500 text-white p-4">Test</div>
     </main>
   );
 };
